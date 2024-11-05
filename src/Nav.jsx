@@ -1,4 +1,4 @@
-import './Nav.css'; // Make sure to import your CSS file here
+import './nav.css'; // Make sure to import your CSS file here
 import { LayoutDashboard, Menu, Banana, Apple } from 'lucide-react';
 import { NavLink } from 'react-router-dom';
 
