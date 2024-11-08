@@ -3,11 +3,10 @@
 
 .add-button {
     background-color: var(--highlight-color);
-    color: white;
+    color: rgb(46, 46, 46);
     border: none;
     padding: 0.75rem 1.5rem;
     border-radius: 8px;
-    font-weight: 500;
     cursor: pointer;
     transition: background-color 0.2s;
 }
@@ -27,7 +26,7 @@
 }
 
 .edit-button {
-    background-color: #0984e3;
+    background-color: #972b77;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -41,7 +40,7 @@
 }
 
 .delete-button {
-    background-color: #e74c3c;
+    background-color: #3e1d63;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
