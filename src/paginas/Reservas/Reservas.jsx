@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Calendar } from "lucide-react";
+
 import {
   Card,
   CardContent,
@@ -80,7 +80,7 @@ const Reservas = () => {
               </DialogContent>
             </Dialog>
       </header>
-      <Card className="max-w-6xl mx-auto">
+      <Card className="mx-auto">
         <CardHeader className="space-y-1">
           <div className="flex items-center justify-between">
             <div className="space-y-1">

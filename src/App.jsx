@@ -4,8 +4,11 @@ import Dashboard from './paginas/Dashboard/Dashboard.jsx'
 import Staff from './paginas/Staff/Staff.jsx'
 import Menu from './paginas/Menu/Menu.jsx'
 import Reservas from './paginas/Reservas/Reservas.jsx'
+import Inventario from './paginas/Inventario/Inventario.jsx'
+import Notificationes from './paginas/Notificaciones/Notificaciones.jsx'
 import Layout from './components/Layout.jsx'
 import NotFound from './components/NotFound.jsx'
+
 function App() {
   return (
       <Routes>
@@ -14,7 +17,8 @@ function App() {
           <Route path="/gestion" element={<Staff />} />
           <Route path="/menu" element={<Menu />} />
           <Route path="/reservas" element={<Reservas />} />
-
+          <Route path="/inventario" element={<Inventario />} />
+          <Route path="/notificaciones" element={<Notificationes />} />
         </Route>
         <Route path="/login" element={<Login />} />
         <Route path="*" element={<NotFound />} />

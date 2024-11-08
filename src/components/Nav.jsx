@@ -27,7 +27,7 @@ const Nav = () => {
         {/* Logo Section */}
         <div>
           <div className="flex items-center justify-center py-4 border-b">
-            <h3 className="text-xl font-semibold">Solo un dia</h3>
+            <h3 className="text-xl font-semibold text-primary">Solo un dia</h3>
           </div>
 
           {/* Navigation Links */}
@@ -39,14 +39,14 @@ const Nav = () => {
                 className={({ isActive }) =>
                   cn(
                     "flex flex-col items-center justify-center w-full p-3 rounded-2xl transition-colors duration-200",
-                    "hover:bg-gray-200 hover:text-gray-800",
-                    isActive ? "bg-gray-200 text-gray-800" : "text-gray-500"
+                    "hover:bg-primary hover:text-gray-800",
+                    isActive ? "bg-primary text-gray-800" : "text-gray-500"
                   )
                 }
               >
                 <div className="flex flex-col items-center gap-2">
                   <div className="p-2 rounded-full bg-gray-100">
-                    <Icon className="w-5 h-5 text-gray-700" />
+                    <Icon className="w-5 h-5 text-primary" />
                   </div>
                   <span className="text-sm">{label}</span>
                 </div>
@@ -58,7 +58,7 @@ const Nav = () => {
         {/* Logout Button */}
         <div className="mt-4">
           <button
-            className="w-full flex items-center justify-center gap-2 p-3 rounded-2xl transition-colors duration-200 bg-gray-200 text-gray-800 hover:bg-gray-300"
+            className="w-full flex items-center justify-center gap-2 p-3 rounded-2xl transition-colors duration-200 bg-gray-200 text-gray-800 hover:bg-primary"
             onClick={() => console.log('Cerrar sesión')}
           >
             <LogOut className="w-5 h-5 text-gray-700" />

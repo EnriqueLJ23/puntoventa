@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from "react";
 import {
   Card,
   CardContent,
@@ -25,7 +25,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -41,7 +41,6 @@ import {
   Soup,
   Salad,
   Search,
-  Plus,
   MoreVertical,
   DollarSign,
   Tags,
@@ -84,7 +83,7 @@ const Menu = () => {
   });
 
   return (
-    <div className="p-8 min-h-screen bg-background">
+    <div className="p-8 min-h-screen">
       <header className="flex justify-between items-center mb-8">
         <div>
           <h2 className="text-4xl font-semibold text-foreground">Menú</h2>
